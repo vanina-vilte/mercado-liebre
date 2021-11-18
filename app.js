@@ -8,7 +8,7 @@ app.listen(3000, () => {
 })
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + '/views/home.html');//cambia el path.resolve()
+    res.sendFile(__dirname + '/views/index.html');//cambia el path.resolve()
 })
 
 app.get('/register', (req,res)=>{
